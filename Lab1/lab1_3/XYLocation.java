@@ -1,4 +1,4 @@
-package lab1_2;
+package lab1_3;
 
 public class XYLocation {
 	private int row;

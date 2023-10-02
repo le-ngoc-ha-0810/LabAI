@@ -1,4 +1,9 @@
-package lab1_2;
+package lab1_3;
+
+import lab1_3.Action;
+import lab1_3.AgentProgram;
+import lab1_3.NoOpAction;
+import lab1_3.Percept;
 
 public class Agent {
 	private AgentProgram program;

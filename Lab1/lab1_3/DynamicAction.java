@@ -1,9 +1,9 @@
-package lab1_2;
+package lab1_3;
+
+import lab1_3.Action;
 
 public class DynamicAction extends Action {
 	private String name;
-	public static final Action MOVE_UP = new DynamicAction("UP");
-	public static final Action MOVE_DOWN = new DynamicAction("DOWN");
 
 	public DynamicAction(String name) {
 		this.name = name;
@@ -18,5 +18,4 @@ public class DynamicAction extends Action {
 	public String toString() {
 		return this.name;
 	}
-
 }

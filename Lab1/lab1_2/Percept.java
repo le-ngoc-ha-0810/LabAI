@@ -1,23 +1,19 @@
 package lab1_2;
 
-import lab1_2.Environment.LocationState;
-
 public class Percept {
-	private XYLocation agentLocation;
-	private LocationState state;
+	private String agentLocation;
+	private Environment.LocationState state;
 
-	public Percept(XYLocation agentLocation, LocationState state) {
-		super();
+	public Percept(String agentLocation, Environment.LocationState state) {
 		this.agentLocation = agentLocation;
 		this.state = state;
 	}
 
-	public XYLocation getAgentLocation() {
-		return agentLocation;
+	public Environment.LocationState getLocationState() {
+		return this.state;
 	}
 
-	public LocationState getState() {
-		return state;
+	public String getAgentLocation() {
+		return this.agentLocation;
 	}
-
 }
